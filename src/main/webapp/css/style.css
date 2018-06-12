@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+/*body {
+	background-color: #B2868E;s
+}
+*/
+
+/*nazwa strony - pozycja*/
+
+.header{
+	text-align:center;
+	color:red;
+}
+/*image 1*/
+.decoration-1 {
+	position: absolute;
+	top: 350px;
+	left: 10px;
+}
+/*image 2*/
+.decoration-2 {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+
+/*image 3*/
+.decoration-3 {
+	position: absolute;
+	top: 25px;
+	left: 870px;
+}
+
+/*image 4*/
+.decoration-4 {
+	position: absolute;
+	top: 420px;
+	left: 1050px;
+}
+
+/*image 5*/
+.decoration-5 {
+	position: absolute;
+	top: 180px;
+	left: 1050px;
+}
+/*yellow color then put the mouse on link*/
+.programs:hover, .news:hover, .search:hover, .contact:hover, .admin:hover, .yellow
+	{
+	background-color: yellow;
+}
+
+/*link look like button - client page*/
+.programs, .news, .search, .contact, .admin {
+	border: 1px solid gray;
+	color: gray;
+	background-color: lightgray;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+}
+/*design button - admine mode*/
+.design {
+	display: inline-block; /* Строчно-блочный элемент */
+	padding: 5px 20px; /* Добавляем поля */
+	text-decoration: none; /* Убираем подчёркивание у ссылки */
+	cursor: pointer; /* Курсор в виде руки */
+	border-radius: 10px; /* Скругляем уголки */
+	border: 1px solid #008; /* Добавляем синюю рамку */
+	font: 16px/1 Arial, sans-serif; /* Рубленый шрифт */
+	color: #008000; /* Цвет текста и ссылки */
+}
+
+.admin {
+	float: right;
+}
+/* link haven't underline*/
+a {
+	text-decoration: none;
+}
+/*link have green color then put the mouse on link category*/
+.category:hover {
+	color: green;
+}
+/*10 last added programs*/
+.document {
+	width: 35%;
+	height: 450px;
+	position: absolute;
+	left: 250px;
+	top: 130px;
+	border: none;
+}
+/*10 last updated programs*/
+.document2 {
+	width: 35%;
+	height: 450px;
+	position: absolute;
+	left: 750px;
+	top: 130px;
+	border: none;
+}
+/*10 last news and search form*/
+.document3 {
+	width: 56%;
+	height: 450px;
+	position: absolute;
+	left: 250px;
+	top: 140px;
+}
+/*search result*/
+.document4 {
+	width: 56%;
+	height: 450px;
+	position: absolute;
+	left: 250px;
+	top: 290px;
+	border: 1px;
+}
+/*details program - text*/
+.document5 {
+	width: 60%;
+	height: 450px;
+	position: absolute;
+	left: 250px;
+	top: 140px;
+	border: none;
+}
+/*add and edit program - description*/
+.document6 {
+	position: absolute;
+	left: 350px;
+	width: 50%;
+	top: 40px;
+	border: none;
+}
+
+/*add and edit program - OS*/
+.document7 {
+	width: 10%;
+	position: absolute;
+	left: 1020px;
+	top: 40px;
+	border: none;
+}
+
+/*active link - page*/
+.active {
+	background-color: #1CB9F2;
+}
+/*small letters*/
+.smallLetter {
+	font-size: 12px;
+}
+/*middle letters*/
+.middleLetter {
+	font-size: 14px;
+}
+
+/*program details - table client*/
+.progDetail {
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+/* table client - border*/
+.progDetail th,
+.progDetail td {
+	border: 1px solid black;
+	padding: 10px 15px;
+	text-align: center;
+}
+
+/*program detail - table admin*/
+.progDetailAdmin {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width:100%;
+}
+/* table admin - border*/
+.progDetailAdmin th,
+.progDetailAdmin td {
+	border: 2px solid black;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 14px;
+}
+/* table admin - odd row*/
+.progDetailAdmin tr:nth-child(odd){
+	background-color:lightgreen;
+}
+/* table admin - header row*/
+.progDetailAdmin tr:nth-child(1){
+	background-color:lightblue;
+	font-size: 16px;
+}
+/*table admin - links*/
+.progDetailAdmin a {
+	text-decoration:underline;
+}
+
+/*news details - admin*/
+.document8 {
+	width: 75%;
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	border: none;
+}
+

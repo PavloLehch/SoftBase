@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-web>
+ <security-domain>java:/jaas/other</security-domain>
+</tomcat-web>
